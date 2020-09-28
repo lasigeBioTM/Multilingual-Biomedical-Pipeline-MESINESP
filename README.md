@@ -1,8 +1,35 @@
 # Multilingual Biomedical Pipeline MESINESP
  Developed solution by the LASIGE BioTM team for the first edition of BioASQ MESINESP task. It consists in the combination of X-BERT/X-Transformer, an Extreme Multi-Label Classification algorithm, with MER, a named entity recognition software.
  
+ You can know more about X-Transformer in: https://github.com/OctoberChang/X-Transformer
  
- ## HOW TO RUN:
+ 
+ ## Requirements:
+ The code requires the following: 
+ 
+- merpy
+
+- gawk
+
+- pandas
+
+- Transformers 2.2.2
+
+- nltk
+
+- scipy
+
+- sklearn
+
+- h5py
+
+- allennlp
+
+- pytorch_pretrained_bert
+
+
+
+ ## HOW TO RUN / TRAIN A MODEL:
  ### 1) Download MESINESP data
 In the MESINESP/mesinesp_data folder, run the 'get_data_mesinesp.sh' script to download the data.
 
